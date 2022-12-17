@@ -1,7 +1,15 @@
 import React from "react";
+import * as C from "./styles";
 
 const ResumeItem = () => {
-  return <div>ResumeItem</div>;
+  return (
+    <C.Container>
+      <C.Header>
+        <C.HeaderTitle>TESTE</C.HeaderTitle>
+      </C.Header>
+      <C.Total>1000</C.Total>
+    </C.Container>
+  );
 };
 
 export default ResumeItem;
